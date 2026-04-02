@@ -2,8 +2,6 @@
 
 <img src="https://static.deathbycaptcha.com/img/user/dbc-logo.png" alt="DeathByCaptcha" width="220" />
 
-# DeathByCaptcha
-
 ### The Professional Bypass Captcha Service & Captcha Solver for Bots
 
 [![Website](https://img.shields.io/badge/Website-deathbycaptcha.com-blue?style=for-the-badge&logo=googlechrome&logoColor=white)](https://deathbycaptcha.com)
@@ -36,9 +34,9 @@
 | <img src="https://skillicons.dev/icons?i=go" width="42"/><br>**Go** | [deathbycaptcha-api-client-go](https://github.com/deathbycaptcha/deathbycaptcha-api-client-go) | `go get github.com/deathbycaptcha/deathbycaptcha-api-client-go/v4` | [README](https://github.com/deathbycaptcha/deathbycaptcha-api-client-go#readme) |
 | <img src="https://skillicons.dev/icons?i=nodejs" width="42"/><br>**Node.js** | [deathbycaptcha-api-client-nodejs](https://github.com/deathbycaptcha/deathbycaptcha-api-client-nodejs) | `npm install deathbycaptcha` | [README](https://github.com/deathbycaptcha/deathbycaptcha-api-client-nodejs#readme) |
 | <img src="https://skillicons.dev/icons?i=php" width="42"/><br>**PHP** | [deathbycaptcha-api-client-php](https://github.com/deathbycaptcha/deathbycaptcha-api-client-php) | `composer require deathbycaptcha/deathbycaptcha` | [README](https://github.com/deathbycaptcha/deathbycaptcha-api-client-php#readme) |
-| <img src="https://skillicons.dev/icons?i=java" width="42"/><br>**Java** | [deathbycaptcha-api-client-java](https://github.com/deathbycaptcha/deathbycaptcha-api-client-java) | Maven / Gradle | [README](https://github.com/deathbycaptcha/deathbycaptcha-api-client-java#readme) |
+| <img src="https://skillicons.dev/icons?i=java" width="42"/><br>**Java** | [deathbycaptcha-api-client-java](https://github.com/deathbycaptcha/deathbycaptcha-api-client-java) | Maven | [README](https://github.com/deathbycaptcha/deathbycaptcha-api-client-java#readme) |
 | <img src="https://skillicons.dev/icons?i=dotnet" width="42"/><br>**.Net (C#, VB)** | [deathbycaptcha-api-client-dotnet](https://github.com/deathbycaptcha/deathbycaptcha-api-client-dotnet) | NuGet package | [README](https://github.com/deathbycaptcha/deathbycaptcha-api-client-dotnet#readme) |
-| <img src="https://skillicons.dev/icons?i=cpp" width="42"/><br>**C++** | [deathbycaptcha-api-client-cpp](https://github.com/deathbycaptcha/deathbycaptcha-api-client-cpp) | CMake / vcpkg | [README](https://github.com/deathbycaptcha/deathbycaptcha-api-client-cpp#readme) |
+| <img src="https://skillicons.dev/icons?i=cpp" width="42"/><br>**C++** | [deathbycaptcha-api-client-cpp](https://github.com/deathbycaptcha/deathbycaptcha-api-client-cpp) | CMake | [README](https://github.com/deathbycaptcha/deathbycaptcha-api-client-cpp#readme) |
 | <img src="https://skillicons.dev/icons?i=c" width="42"/><br>**C (C11)** | [deathbycaptcha-api-client-c11](https://github.com/deathbycaptcha/deathbycaptcha-api-client-c11) | CMake | [README](https://github.com/deathbycaptcha/deathbycaptcha-api-client-c11#readme) |
 | <img src="https://skillicons.dev/icons?i=perl" width="42"/><br>**Perl** | [deathbycaptcha-api-client-perl](https://github.com/deathbycaptcha/deathbycaptcha-api-client-perl) | `cpanm DeathByCaptcha` | [README](https://github.com/deathbycaptcha/deathbycaptcha-api-client-perl#readme) |
 
@@ -144,7 +142,7 @@ Your App  ──►  DBC API (HTTP or Socket)  ──►  Solving Engine  ──
 
 <div align="center">
 
-**© 2008 – 2026 DeathByCaptcha · Trusted bypass captcha service for developers worldwide**
+**© 2010 – 2026 DeathByCaptcha · Trusted bypass captcha service for developers worldwide**
 
 [![Python](https://img.shields.io/badge/Python-client-3776AB?logo=python&logoColor=white)](https://github.com/deathbycaptcha/deathbycaptcha-api-client-python)
 [![Go](https://img.shields.io/badge/Go-client-00ADD8?logo=go&logoColor=white)](https://github.com/deathbycaptcha/deathbycaptcha-api-client-go)
