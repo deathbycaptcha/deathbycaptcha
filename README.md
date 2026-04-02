@@ -15,7 +15,7 @@
 
 ## What is DeathByCaptcha?
 
-**DeathByCaptcha** is a professional **bypass captcha service** trusted by developers, automation engineers, and researchers worldwide since 2008. Our platform acts as a **captcha solver for bots** and automated workflows, providing a fast, reliable, and accurate CAPTCHA-solving API over both **HTTP REST** and **persistent TCP sockets**.
+**DeathByCaptcha** is a professional **bypass captcha service** trusted by developers, automation engineers, and researchers worldwide since 2010. Our platform acts as a **captcha solver for bots** and automated workflows, providing a fast, reliable, and accurate CAPTCHA-solving API over both **HTTP** and **persistent TCP sockets**.
 
 - ✅ **21+ CAPTCHA types** supported — image, reCAPTCHA v2/v3, Turnstile, Amazon WAF, GeeTest, hCaptcha, and more
 - ✅ **HTTP & Socket API** — choose the transport that fits your use case
@@ -38,10 +38,10 @@
 | <img src="https://skillicons.dev/icons?i=dotnet" width="42"/><br>**.Net (C#, VB)** | [deathbycaptcha-api-client-dotnet](https://github.com/deathbycaptcha/deathbycaptcha-api-client-dotnet) | NuGet package | [README](https://github.com/deathbycaptcha/deathbycaptcha-api-client-dotnet#readme) |
 | <img src="https://skillicons.dev/icons?i=cpp" width="42"/><br>**C++** | [deathbycaptcha-api-client-cpp](https://github.com/deathbycaptcha/deathbycaptcha-api-client-cpp) | CMake | [README](https://github.com/deathbycaptcha/deathbycaptcha-api-client-cpp#readme) |
 | <img src="https://skillicons.dev/icons?i=c" width="42"/><br>**C (C11)** | [deathbycaptcha-api-client-c11](https://github.com/deathbycaptcha/deathbycaptcha-api-client-c11) | CMake | [README](https://github.com/deathbycaptcha/deathbycaptcha-api-client-c11#readme) |
-| <img src="https://skillicons.dev/icons?i=perl" width="42"/><br>**Perl** | [deathbycaptcha-api-client-perl](https://github.com/deathbycaptcha/deathbycaptcha-api-client-perl) | `cpanm DeathByCaptcha` | [README](https://github.com/deathbycaptcha/deathbycaptcha-api-client-perl#readme) |
+| <img src="https://skillicons.dev/icons?i=perl" width="42"/><br>**Perl** | [deathbycaptcha-api-client-perl](https://github.com/deathbycaptcha/deathbycaptcha-api-client-perl) | `cpanm --installdeps .` | [README](https://github.com/deathbycaptcha/deathbycaptcha-api-client-perl#readme) |
 
-> All libraries implement the same `Client` interface with `HTTP` and `Socket` transports,
-> support authentication via `username`/`password` **or** `authtoken`, and are **thread-safe**.
+> All libraries implement similar `Client` interface with `HTTP` and `Socket` transports,
+> support authentication via `username`/`password` **or** `authtoken`.
 
 ---
 
@@ -50,26 +50,24 @@
 | # | Type | Description |
 |:---:|---|---|
 | 0 | 🖼️ **Image CAPTCHA** | Classic text-in-image challenges |
-| 1 | 🔁 **reCAPTCHA v2** | Google checkbox & invisible reCAPTCHA |
-| 3 | 🎮 **FunCaptcha / Arkose Labs** | Interactive game-based challenges |
-| 4 | 📊 **reCAPTCHA v3** | Score-based invisible reCAPTCHA |
-| 5 | 🔐 **hCaptcha** | Privacy-focused CAPTCHA |
-| 6 | 🔑 **KeyCaptcha** | Puzzle-based CAPTCHA |
-| 7 | 🧩 **GeeTest v3** | Slide & behavior-based CAPTCHA |
-| 8 | 🧩 **GeeTest v4** | Next-gen GeeTest challenges |
-| 9 | 🧸 **Capy Puzzle** | Jigsaw puzzle CAPTCHA |
-| 10 | ☁️ **Cloudflare Turnstile** | Cloudflare's privacy-preserving challenge |
-| 11 | 🛡️ **Amazon WAF** | AWS bot protection token |
-| 12 | 🤖 **Cyber SiARA** | Behavioral CAPTCHA |
-| 13 | 🔒 **MT Captcha** | MTCaptcha enterprise challenges |
-| 14 | 😊 **Friendly Captcha** | Eco-friendly PoW CAPTCHA |
-| 15 | ✂️ **Cutcaptcha** | Click-based image CAPTCHA |
-| 16 | 🇨🇳 **Tencent CAPTCHA** | Tencent TDC slider |
-| 17 | 🚦 **atbCAPTCHA** | AT&T bot challenge |
-| 18 | 🍋 **Lemin Cropped CAPTCHA** | Cropped puzzle CAPTCHA |
-| 19 | 🚪 **Imperva / Incapsula** | Imperva WAF challenge |
-| 20 | 🟣 **DataDome** | DataDome bot protection |
-| 21 | 🎵 **Audio CAPTCHA** | Voice/audio challenges |
+| 4 | 🔁 **reCAPTCHA v2** | Google checkbox reCAPTCHA |
+| 5 | 📊 **reCAPTCHA v3** | Score-based invisible reCAPTCHA |
+| 8 | 🧩 **GeeTest v3** | Slide & behavior-based CAPTCHA |
+| 9 | 🧩 **GeeTest v4** | Next-gen GeeTest challenges |
+| 11 | 📝 **TextCaptcha** | Text-based question CAPTCHA |
+| 12 | ☁️ **Cloudflare Turnstile** | Cloudflare's privacy-preserving challenge |
+| 13 | 🎵 **Audio Captcha** | Voice/audio challenges |
+| 14 | 🍋 **Lemin Cropped** | Cropped puzzle CAPTCHA |
+| 15 | 🧸 **Capy Puzzle** | Jigsaw puzzle CAPTCHA |
+| 16 | 🛡️ **Amazon WAF** | AWS bot protection token |
+| 17 | 🤖 **Cyber Siara** | Behavioral slide CAPTCHA |
+| 18 | 🔒 **Mtcaptcha** | MTCaptcha enterprise challenges |
+| 19 | ✂️ **Cutcaptcha** | Drag & drop image CAPTCHA |
+| 20 | 😊 **Friendly Captcha** | Eco-friendly PoW CAPTCHA |
+| 21 | 🟣 **Datadome** | DataDome bot protection |
+| 23 | 🇨🇳 **Tencent Captcha** | Tencent TDC slider |
+| 24 | 🚦 **Atb Captcha** | ATB bot challenge |
+| 25 | 🏢 **reCAPTCHA v2 Enterprise** | Google reCAPTCHA v2 Enterprise |
 
 ---
 
