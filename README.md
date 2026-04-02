@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://deathbycaptcha.com/img/logo.png" alt="DeathByCaptcha" width="220" />
+<img src="https://static.deathbycaptcha.com/img/user/dbc-logo.png" alt="DeathByCaptcha" width="220" />
 
 # DeathByCaptcha
 
