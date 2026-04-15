@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="img/git_logo.jpg" alt="DeathByCaptcha" width="420" />
+<img src="img/git_logo_v2.jpg" alt="DeathByCaptcha" width="420" />
 
 ### The Professional Bypass Captcha Service & Captcha Solver for Bots
 
