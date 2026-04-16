@@ -114,16 +114,28 @@ console.log(result.text); // reCAPTCHA token
 
 ## How It Works
 
-```
-Your App  ──►  DBC API (HTTP or Socket)  ──►  Solving Engine  ──►  Token / Text
-                    ▲                                                    │
-                    │◄───────────────────────────────────────────────────┘
-                                     (< 15 sec avg)
-```
+<div align="center">
 
-1. **Submit** — send the CAPTCHA (image bytes, sitekey + pageurl, or audio)
-2. **Poll** — the client automatically polls until the solution is ready
-3. **Use** — inject the token or text into your automation
+<img src="img/dbc_api.jpg" alt="DeathByCaptcha API Architecture - CAPTCHA Solving Process Flow" width="600" />
+
+</div>
+
+### Streamlined CAPTCHA Solving Workflow
+
+DeathByCaptcha's architecture is engineered for **high-performance captcha solving** with minimal latency. Our **API-driven approach** simplifies integration across web scraping, automated testing, authentication bypass, and bot automation scenarios.
+
+**The Three-Step Process:**
+
+1. **Submit Your CAPTCHA** — Send image bytes, reCAPTCHA sitekey + pageurl, hCaptcha credentials, or any supported challenge type via HTTP or persistent Socket connection
+2. **Intelligent Processing** — Our **solving engine** processes requests through a hybrid network of 24/7 human solvers and AI-powered automation, delivering results in **sub-15 seconds average**
+3. **Receive Your Token** — Get the CAPTCHA solution (token, text, or coordinates) and inject directly into your **automation workflow**
+
+**Why Choose DeathByCaptcha's Solving API:**
+- ⚡ **Low-latency processing** — average 8-15 second response time
+- 🔄 **Automatic polling** — client libraries handle retry logic
+- 🛡️ **Enterprise-grade reliability** — 99.9% uptime SLA
+- 🌍 **Global solving network** — distributed infrastructure for optimal performance
+- 💪 **21+ CAPTCHA type support** — single API for all challenge types
 
 ---
 
