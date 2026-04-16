@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="img/git_logo_v2.jpg" alt="DeathByCaptcha" width="420" />
+<a href="https://deathbycaptcha.com"><img src="img/git_logo_v2.jpg" alt="DeathByCaptcha" width="420" /></a>
 
 ### The Professional Bypass Captcha Service & Captcha Solver for Bots
 
@@ -15,7 +15,9 @@
 
 ## What is DeathByCaptcha?
 
-**DeathByCaptcha** is a professional **bypass captcha service** trusted by developers, automation engineers, and researchers worldwide since 2010. Our platform acts as a **captcha solver for bots** and automated workflows, providing a fast, reliable, and accurate CAPTCHA-solving API over both **HTTP** and **persistent TCP sockets**.
+DeathByCaptcha.com offers a powerful **[captcha solver](https://deathbycaptcha.com) that helps developers** efficiently **[bypass captchas](https://deathbycaptcha.com/api)** and streamline automation without compromising performance.
+
+It's designed to handle a wide range of challenges, including [reCAPTCHA](https://deathbycaptcha.com/api/newtokenrecaptcha), image-based puzzles, and more. Whether you're building scripts, scraping data, running automated tests, or scaling web-based operations, our [captcha solver API](https://deathbycaptcha.com/api) delivers fast, accurate, and reliable results.
 
 - ✅ **21+ CAPTCHA types** supported — image, reCAPTCHA v2/v3, Turnstile, Amazon WAF, GeeTest, hCaptcha, and more
 - ✅ **HTTP & Socket API** — choose the transport that fits your use case
@@ -140,7 +142,7 @@ Your App  ──►  DBC API (HTTP or Socket)  ──►  Solving Engine  ──
 
 <div align="center">
 
-**© 2010 – 2026 DeathByCaptcha · Trusted bypass captcha service for developers worldwide**
+**© 2010 – 2026 [DeathByCaptcha](https://deathbycaptcha.com/) · Trusted bypass captcha service for developers worldwide**
 
 [![Python](https://img.shields.io/badge/Python-client-3776AB?logo=python&logoColor=white)](https://github.com/deathbycaptcha/deathbycaptcha-api-client-python)
 [![Go](https://img.shields.io/badge/Go-client-00ADD8?logo=go&logoColor=white)](https://github.com/deathbycaptcha/deathbycaptcha-api-client-go)
