@@ -126,7 +126,7 @@ DeathByCaptcha's architecture is engineered for **high-performance captcha solvi
 
 <div align="center">
 
-<img src="img/dbc_api.jpg" alt="DeathByCaptcha API Architecture - CAPTCHA Solving Process Flow" width="80%" />
+<img src="img/dbc_api.jpg" alt="DeathByCaptcha API Architecture - CAPTCHA Solving Process Flow" width="100%" />
 
 </div>
 
