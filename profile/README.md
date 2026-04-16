@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://deathbycaptcha.com"><img src="https://raw.githubusercontent.com/deathbycaptcha/.github/main/img/git_logo_v2.jpg" alt="DeathByCaptcha" width="420" /></a>
+<a href="https://deathbycaptcha.com"><img src="https://raw.githubusercontent.com/deathbycaptcha/.github/master/img/git_logo_v2.jpg" alt="DeathByCaptcha" width="420" /></a>
 
 ### The Professional Bypass Captcha Service & Captcha Solver for Bots
 
@@ -87,7 +87,7 @@ DeathByCaptcha's architecture is engineered for **high-performance captcha solvi
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/deathbycaptcha/.github/main/img/dbc_api_v2.jpg" alt="DeathByCaptcha API Architecture - CAPTCHA Solving Process Flow" width="100%" />
+<img src="https://raw.githubusercontent.com/deathbycaptcha/.github/master/img/dbc_api_v2.jpg" alt="DeathByCaptcha API Architecture - CAPTCHA Solving Process Flow" width="100%" />
 
 </div>
 
