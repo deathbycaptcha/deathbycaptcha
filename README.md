@@ -114,12 +114,6 @@ console.log(result.text); // reCAPTCHA token
 
 ## How It Works
 
-<div align="center">
-
-<img src="img/dbc_api.jpg" alt="DeathByCaptcha API Architecture - CAPTCHA Solving Process Flow" width="600" />
-
-</div>
-
 ### Streamlined CAPTCHA Solving Workflow
 
 DeathByCaptcha's architecture is engineered for **high-performance captcha solving** with minimal latency. Our **API-driven approach** simplifies integration across web scraping, automated testing, authentication bypass, and bot automation scenarios.
@@ -129,6 +123,12 @@ DeathByCaptcha's architecture is engineered for **high-performance captcha solvi
 1. **Submit Your CAPTCHA** — Send image bytes, reCAPTCHA sitekey + pageurl, hCaptcha credentials, or any supported challenge type via HTTP or persistent Socket connection
 2. **Intelligent Processing** — Our **solving engine** processes requests through a hybrid network of 24/7 human solvers and AI-powered automation, delivering results in **sub-15 seconds average**
 3. **Receive Your Token** — Get the CAPTCHA solution (token, text, or coordinates) and inject directly into your **automation workflow**
+
+<div align="center">
+
+<img src="img/dbc_api.jpg" alt="DeathByCaptcha API Architecture - CAPTCHA Solving Process Flow" width="80%" />
+
+</div>
 
 **Why Choose DeathByCaptcha's Solving API:**
 - ⚡ **Low-latency processing** — average 8-15 second response time
